@@ -1,13 +1,16 @@
+/* settings applied to the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* settings applied to body tag */
 body {
     background-color: #d9dcd6;
 }
 
+/* settings applied to attribute class="header" */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* settings applied to attribute class="header" and tag h1 */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* settings applied to attributes class="header", class="seo" and tag h1 */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* settings applied to attribute class="header" and tag div */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* settings applied to attribute class="header" and tags h1, ul */
 .header div ul {
     list-style-type: none;
 }
 
+/* settings applied to attribute class="header" and tags div, ul, li */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* settings applied to tag a */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* settings applying to tag p */
 p {
     font-size: 16px;
 }
 
+/* settings applied to attribute class="hero" */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* settings applied to attribute class="float-left" */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* settings applied to attribute class="float-right" */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* settings applied to attribute class="content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* settings applied to attribute class="benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* settings applied to attribute class="benefit-lead" */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* settings applied to attribute class="benefit-brand`" */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* settings applied to attribute class="benefit-cost" */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* settings applied to attribute class="benefit-lead" and tag h3 */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* settings applied to attribute class="benefit-brand" and tag h3 */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* settings applied to attribute class="benefit-cost" and tag h3 */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* settings applied to attribute class="benefit-lead" and tag img */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* settings applied to attribute class="benefit-brand" and tag img */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* settings applied to attribute class="benefit-cost" */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* settings applied to attribute class="search-engine-optimization" */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* settings applied to attribute class="online-reputation-management" */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* settings applied to attribute class="social-media-marketing" */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* settings applied to attribute class="search-engine-optimization" and tag img */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* settings applied to attribute class="online-reputation-management" and tag img */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* settings applied to attribute class="social-media-marketing" and tag img */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* settings applied to attribute class="search-engine-optimization" and tag h2 */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* settings applied to attribute class="online-reputation-management" and tag h2 */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* settings applied to attribute class="social-media-marketing" and tag h2 */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* settings applied to attribute class="footer" */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/* settings applied to attributes class="footer" and tag h2 */
 .footer h2 {
     font-size: 20px;
 }
